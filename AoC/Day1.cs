@@ -2,7 +2,7 @@
 using System.IO;
 
 public class Day1{
-	public void Solve(){
+	public Day1(){
 		int calorieCounter = 0;
 		int highestCalories = 0;
 		string[] input_lines = File.ReadAllLines(Path.Combine(Directory.GetCurrentDirectory(), "day1_input.txt"));
